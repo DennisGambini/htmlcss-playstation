@@ -12,6 +12,10 @@ h2{
     border: none;
     background-color: none;
 }
+.fa-trademark{
+    font-size: 0.5em;
+    vertical-align: super;
+}
 /* wrapper */
 .my-wrapper{
     width: 100%;
@@ -122,4 +126,12 @@ header{
 }
 #jumbotron-2 .card{
     border: none;
+}
+/* sezione 5 - NUOVE USCITE */
+#section-five{
+    background-color: var(--my-bg-black);
+}
+#section-five .col-6 img{
+    border-radius: 25px;
+    margin-bottom: 10px;
 }
