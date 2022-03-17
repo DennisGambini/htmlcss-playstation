@@ -4,6 +4,14 @@
 .debug{
     border: 1px solid black;
 }
+
+h2{
+    font-size: 2.5em;
+}
+.card{
+    border: none;
+    background-color: none;
+}
 /* wrapper */
 .my-wrapper{
     width: 100%;
@@ -18,9 +26,18 @@
 .my-btn-red{
     background-color: #CD3D0F;
 }
+.my-btn-blue{
+    background-color: var(--my-btn-blue);
+}
 
                 /* variabili */
-
+:root {
+    --my-bg-black: #1F1F1F;
+    --my-bg-gray: #BEBCBB;
+    --my-bg-blue: #161C3B;
+    --my-bg-lightblue: #00439C;
+    --my-btn-blue: #2D64E6;
+}
 
                 /* HEADER */
 
@@ -43,7 +60,7 @@ header{
                 /* MAIN */
 
 
-/* jumbotron - sezione 1 */
+/* sezione 1 - JUMBOTRON */
 #jumbotron{
     margin-top: 110px;
     background-image: url(../img/jumbo-bg.png);
@@ -53,7 +70,37 @@ header{
     margin-top: 300px;
     border: none;
 }
-/* sezione 2 - card giochi */
+
+/* sezione 2 - CARD GIOCHI */
 #section-two img{
     border-radius: 20px;
+}
+
+/* sezione 3 - PLAYSTATION 5 */
+#section-three .card.text-center h5{
+    color: var(--my-btn-blue);
+    margin-top: 100px;
+}
+#section-three .card p{
+    color: gray;
+    font-size: 1.2em;
+}
+.my-layover{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+}
+.my-img-wrapper{
+    text-align: center;
+    border-bottom: 3px solid white;
+}
+.my-img-wrapper:hover{
+    border-bottom: 3px solid var(--my-btn-blue);
+}
+.row .col-4:hover .my-layover{
+    display: none;
 }
