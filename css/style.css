@@ -1,16 +1,30 @@
-/* GENERALI */
+                /* GENERALI */
+
+
 .debug{
     border: 1px solid black;
 }
-section{
-    height: 90vh; /* poi toglilo */
+/* wrapper */
+.my-wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+@media screen and (min-width: 576px) {
+    .my-wrapper{
+        width: 95%;
+    }
 }
 /* bottoni */
 .my-btn-red{
     background-color: #CD3D0F;
 }
 
-/* header */
+                /* variabili */
+
+
+                /* HEADER */
+
+
 header{
     background-color: black;
 }
@@ -24,7 +38,10 @@ header{
     height: 70px;
     background-color: lightblue;    
 }
-  /* MAIN */
+
+
+                /* MAIN */
+
 
 /* jumbotron - sezione 1 */
 #jumbotron{
@@ -35,4 +52,8 @@ header{
 #jumbotron .card{
     margin-top: 300px;
     border: none;
+}
+/* sezione 2 - card giochi */
+#section-two img{
+    border-radius: 20px;
 }
