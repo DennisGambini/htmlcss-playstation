@@ -1,0 +1,25 @@
+/* GENERALI */
+.debug{
+    border: 1px solid black;
+}
+header{
+    background-color: black;
+}
+#sony-logo{
+    width: 100px;
+}
+.header-top{
+    height:40px;
+}
+.header-bottom{
+    height: 70px;
+    background-color: lightblue;
+    
+}
+section{
+    height: 90vh;
+    background-color: gainsboro;
+}
+#jumbotron{
+    margin-top: 110px;
+}
