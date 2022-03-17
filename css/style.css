@@ -2,6 +2,15 @@
 .debug{
     border: 1px solid black;
 }
+section{
+    height: 90vh; /* poi toglilo */
+}
+/* bottoni */
+.my-btn-red{
+    background-color: #CD3D0F;
+}
+
+/* header */
 header{
     background-color: black;
 }
@@ -13,13 +22,17 @@ header{
 }
 .header-bottom{
     height: 70px;
-    background-color: lightblue;
-    
+    background-color: lightblue;    
 }
-section{
-    height: 90vh;
-    background-color: gainsboro;
-}
+  /* MAIN */
+
+/* jumbotron - sezione 1 */
 #jumbotron{
     margin-top: 110px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: top center;
+}
+#jumbotron .card{
+    margin-top: 300px;
+    border: none;
 }
