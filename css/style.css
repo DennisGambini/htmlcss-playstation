@@ -63,11 +63,12 @@ header{
 /* sezione 1 - JUMBOTRON */
 #jumbotron{
     margin-top: 110px;
+    padding-top: 300px;
+    padding-bottom: 30px;
     background-image: url(../img/jumbo-bg.png);
     background-position: top center;
 }
 #jumbotron .card{
-    margin-top: 300px;
     border: none;
 }
 
@@ -77,9 +78,11 @@ header{
 }
 
 /* sezione 3 - PLAYSTATION 5 */
-#section-three .card.text-center h5{
+#section-three{
+    margin-top: 80px;
+}
+#section-three .card.text-center h6{
     color: var(--my-btn-blue);
-    margin-top: 100px;
 }
 #section-three .card p{
     color: gray;
@@ -103,4 +106,20 @@ header{
 }
 .row .col-4:hover .my-layover{
     display: none;
+}
+@media screen and (max-width: 767px) {
+    .my-img-wrapper p{
+        display: none;
+    }
+}
+
+/* sezione 4 - IT TAKES TWO */
+#jumbotron-2{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: url(../img/it-takes-two-hero-banner-desktop.jpg) no-repeat center;
+    background-size: cover;
+}
+#jumbotron-2 .card{
+    border: none;
 }
