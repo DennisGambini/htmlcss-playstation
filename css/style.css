@@ -148,3 +148,8 @@ header{
 #section-seven{
     background-color: var(--my-bg-gray);
 }
+/* sezione 8 - SCONTI */
+#section-eight .card p{
+    color: gray;
+    font-size: 1.2em;
+}
