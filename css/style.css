@@ -144,3 +144,7 @@ header{
     color: gray;
     font-size: 1.2em;
 }
+/* sezione 7 - PLAYSTATION PLUS */
+#section-seven{
+    background-color: var(--my-bg-gray);
+}
