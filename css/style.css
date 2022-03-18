@@ -157,3 +157,7 @@ header{
 #section-nine{
     background-color: var(--my-bg-blue);
 }
+/* sezione 10 - SOCIAL */
+#section-ten .container-md{
+    max-width: 720px;
+}
