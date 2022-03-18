@@ -161,3 +161,27 @@ header{
 #section-ten .container-md{
     max-width: 720px;
 }
+
+/* FOOTER */
+footer{
+    background-color: var(--my-bg-lightblue);
+}
+footer #footer-ps-logo{
+    height: 70px;
+}
+footer #footer-sie-logo{
+    height: 50px;
+}
+footer ul li{
+    border: none !important;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: red;
+}
+footer .fa-copyright{
+    font-size: 0.8em;
+}
