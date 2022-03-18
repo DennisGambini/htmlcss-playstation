@@ -153,3 +153,7 @@ header{
     color: gray;
     font-size: 1.2em;
 }
+/* sezione 9 - PLAYSTATION NOW */
+#section-nine{
+    background-color: var(--my-bg-blue);
+}
