@@ -33,7 +33,9 @@ h2{
 .my-btn-blue{
     background-color: var(--my-btn-blue);
 }
-
+.my-btn-black{
+    background-color: var(--my-bg-black);
+}
                 /* variabili */
 :root {
     --my-bg-black: #1F1F1F;
@@ -55,11 +57,62 @@ header{
 .header-top{
     height:40px;
 }
-.header-bottom{
-    height: 70px;
-    background-color: lightblue;    
-}
 
+
+                /* NAV */
+
+nav{
+    font-size: 1.2em;
+}
+#lens-icon{
+    height: 25px;
+}
+nav .d-flex ul li a.btn{
+    /* background-color: var(--my-bg-black); */
+    padding:0.5em;
+}
+.roba-mia{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+#navbarToggleExternalContent ul{
+    list-style: none;
+    background-color: white;
+}
+/* selettore per i nav-links */
+nav #navbarSupportedContent ul>.nav-item>a>button{
+    background-color: rgba(100 , 200, 50, 0);
+    border: none;
+    vertical-align: middle;
+}
+.nav-link {
+    padding: 0.1rem 1rem;
+}
+nav .my-chevron{
+    vertical-align: middle;
+    filter:brightness(100%);
+    width: 0.7em;
+}
+nav #navbarSupportedContent ul>.nav-item>a>button:hover .my-chevron{
+    filter: 
+    brightness(0) saturate(100%)
+    invert(31%) sepia(97%) saturate(1276%) hue-rotate(187deg) brightness(90%) contrast(107%)
+    ;
+    
+}
+.my-inline-span{
+    vertical-align: top;
+}
+@media screen and (max-width: 992px) {
+    nav .d-flex ul li a.btn{
+        padding: 0.3em;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
 
                 /* MAIN */
 

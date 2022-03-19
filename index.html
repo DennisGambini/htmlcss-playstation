@@ -16,11 +16,130 @@
 <body>
     <!-- header -->
     <header class="fixed-top">
+
         <div class="header-top d-flex justify-content-end">
             <img class="me-3" id="sony-logo" src="img/sony_logo.svg" alt="logo Sony">
         </div>
+
         <div class="header-bottom">
-            <div>nav</div>
+                <!-- NAV -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <!-- brand -->
+                        <a class="navbar-brand" href="#">
+                            <img src="img/play_logo.svg" alt="Playstation Logo">
+                        </a>
+                        <!-- toggler / bottone under lg px -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <!-- links della nav che collassano -->
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page">
+                                        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                            <span class="my-inline-span">Giochi</span>
+                                            <img class="img-fluid my-chevron" src="img/chevron-down-solid.svg" alt="chevron toggler">
+                                        </button>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">
+                                        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                            <span class="my-inline-span">Hardware</span>
+                                            <img class="img-fluid my-chevron" src="img/chevron-down-solid.svg" alt="chevron toggler">
+                                        </button>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">
+                                        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                            <span class="my-inline-span">Servizi</span>
+                                            <img class="img-fluid my-chevron" src="img/chevron-down-solid.svg" alt="chevron toggler">
+                                        </button>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">
+                                        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                            <span class="my-inline-span">Novità</span>
+                                            <img class="img-fluid my-chevron" src="img/chevron-down-solid.svg" alt="chevron toggler">
+                                        </button>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">
+                                        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                            <span class="my-inline-span">Fai acquisti</span>
+                                            <img class="img-fluid my-chevron" src="img/chevron-down-solid.svg" alt="chevron toggler">
+                                        </button>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">
+                                        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                            <span class="my-inline-span">Supporto</span>
+                                            <img class="img-fluid my-chevron" src="img/chevron-down-solid.svg" alt="chevron toggler">
+                                        </button>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+
+                            <!-- parte a dx -->
+                            <div class="d-flex">
+                                <ul class="d-flex align-items-start align-items-lg-center navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link">
+                                            <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                                <span class="my-inline-span">My PlayStation</span>
+                                                <img class="img-fluid my-chevron" src="img/chevron-down-solid.svg" alt="chevron toggler">
+                                            </button>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link btn rounded-pill my-btn-black text-white">Accedi</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            <img id="lens-icon" src="img/lens.svg" alt="lens icon">
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </nav>
+                
+               <!-- zona collassata -->
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="roba-mia">
+                    <ul id="my-external-ul" class="d-flex justify-content-center">
+                        <li>
+                            <a class="dropdown-item" href="#section-three">
+                                <img src="img/play-menu-ico.png" alt="playstation icon">
+                                <p>PlayStation 5</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#section-six">
+                                <img src="img/play-menu-ico.png" alt="playstation icon">
+                                <p>PlayStation 4</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#section-nine">
+                                <img src="img/play-menu-ico.png" alt="playstation icon">
+                                <p>PlayStation 3</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
 
