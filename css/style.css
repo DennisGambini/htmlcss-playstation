@@ -27,14 +27,46 @@ h2{
     }
 }
 /* bottoni */
+.my-btn{
+    background-clip: padding-box;
+    border: 3px solid transparent;
+    box-shadow: 0 0 0 1px transparent;
+    transition: 0.25s;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
 .my-btn-red{
     background-color: #CD3D0F;
+}
+.my-btn-red:hover{
+    box-shadow: 0 0 0 1px #CD3D0F;
 }
 .my-btn-blue{
     background-color: var(--my-btn-blue);
 }
+.my-btn-blue:hover{
+    box-shadow: 0 0 0 1px var(--my-btn-blue);
+}
 .my-btn-black{
     background-color: var(--my-bg-black);
+}
+.my-btn-black:hover{
+    box-shadow: 0 0 0 1px var(--my-bg-black);
+}
+.my-btn-gray{
+    color: var(--my-btn-blue);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.my-btn-gray:hover{
+    color: var(--my-btn-blue);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.25);
+}
+.my-btn-white{
+    color: black;
+    background-color: white;
+}
+.my-btn-white:hover{
+    box-shadow: 0 0 0 1px white;
 }
                 /* variabili */
 :root {
@@ -124,16 +156,26 @@ nav #navbarSupportedContent ul>.nav-item>a>button:hover .my-chevron{
     padding-bottom: 30px;
     background-image: url(../img/jumbo-bg.png);
     background-position: top center;
+    background-repeat: no-repeat;
 }
 #jumbotron .card{
     border: none;
 }
 
 /* sezione 2 - CARD GIOCHI */
-#section-two img{
+#section-two .col-6 img{
     border-radius: 20px;
+    position: relative;
+    border: 3px solid transparent;
+    cursor: pointer;
+    padding: 2px;
+    top: 0;
+    transition: top 0.2s, border 0.5s;
 }
-
+#section-two .col-6:hover img{
+    top:-10px;
+    border: 3px solid var(--my-btn-blue);
+}
 /* sezione 3 - PLAYSTATION 5 */
 #section-three{
     margin-top: 80px;
@@ -184,9 +226,23 @@ nav #navbarSupportedContent ul>.nav-item>a>button:hover .my-chevron{
 #section-five{
     background-color: var(--my-bg-black);
 }
+#section-five .col-6{
+    align-self: flex-start;
+}
 #section-five .col-6 img{
     border-radius: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    transition: 0.15s;
+    position: relative;
+    opacity: 0.85;
+}
+#section-five .col-6 img:hover{
+    height: calc(100% + 6px);
+    width: calc(100% + 6px);
+    margin-bottom: 12px;
+    margin-top: -3px;
+    margin-left: -3px;
+    opacity: 1;
 }
 /* sezione 6 - PLAYSTATION 4 */
 .fa-registered{
