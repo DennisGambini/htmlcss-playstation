@@ -1,324 +1,324 @@
                 /* GENERALI */
 
-                h2{
-                    font-size: 2.5em;
-                }
-                .card{
-                    border: none;
-                    background-color: none;
-                }
-                .fa-trademark{
-                    font-size: 0.5em;
-                    vertical-align: super;
-                }
-                /* wrapper */
-                .my-wrapper{
-                    width: 100%;
-                    margin: 0 auto;
-                }
-                @media screen and (min-width: 576px) {
-                    .my-wrapper{
-                        width: 95%;
-                    }
-                }
-                /* bottoni */
-                .my-btn{
-                    background-clip: padding-box;
-                    border: 3px solid transparent;
-                    box-shadow: 0 0 0 1px transparent;
-                    transition: 0.25s;
-                    font-size: 1.1rem;
-                    font-weight: 500;
-                }
-                .my-btn-red{
-                    background-color: #CD3D0F;
-                }
-                .my-btn-red:hover{
-                    box-shadow: 0 0 0 1px #CD3D0F;
-                }
-                .my-btn-blue{
-                    background-color: var(--my-btn-blue);
-                }
-                .my-btn-blue:hover{
-                    box-shadow: 0 0 0 1px var(--my-btn-blue);
-                }
-                .my-btn-black{
-                    background-color: var(--my-bg-black);
-                }
-                .my-btn-black:hover{
-                    box-shadow: 0 0 0 1px var(--my-bg-black);
-                }
-                .my-btn-gray{
-                    color: var(--my-btn-blue);
-                    background-color: rgba(255, 255, 255, 0.5);
-                }
-                .my-btn-gray:hover{
-                    color: var(--my-btn-blue);
-                    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.25);
-                }
-                .my-btn-white{
-                    color: black;
-                    background-color: white;
-                }
-                .my-btn-white:hover{
-                    box-shadow: 0 0 0 1px white;
-                }
-                                /* variabili */
-                :root {
-                    --my-bg-black: #1F1F1F;
-                    --my-bg-gray: #BEBCBB;
-                    --my-bg-blue: #161C3B;
-                    --my-bg-lightblue: #00439C;
-                    --my-btn-blue: #2D64E6;
-                }
+h2{
+    font-size: 2.5em;
+}
+.card{
+    border: none;
+    background-color: none;
+}
+.fa-trademark{
+    font-size: 0.5em;
+    vertical-align: super;
+}
+/* wrapper */
+.my-wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+@media screen and (min-width: 576px) {
+    .my-wrapper{
+        width: 95%;
+    }
+}
+/* bottoni */
+.my-btn{
+    background-clip: padding-box;
+    border: 3px solid transparent;
+    box-shadow: 0 0 0 1px transparent;
+    transition: 0.25s;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.my-btn-red{
+    background-color: #CD3D0F;
+}
+.my-btn-red:hover{
+    box-shadow: 0 0 0 1px #CD3D0F;
+}
+.my-btn-blue{
+    background-color: var(--my-btn-blue);
+}
+.my-btn-blue:hover{
+    box-shadow: 0 0 0 1px var(--my-btn-blue);
+}
+.my-btn-black{
+    background-color: var(--my-bg-black);
+}
+.my-btn-black:hover{
+    box-shadow: 0 0 0 1px var(--my-bg-black);
+}
+.my-btn-gray{
+    color: var(--my-btn-blue);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.my-btn-gray:hover{
+    color: var(--my-btn-blue);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.25);
+}
+.my-btn-white{
+    color: black;
+    background-color: white;
+}
+.my-btn-white:hover{
+    box-shadow: 0 0 0 1px white;
+}
+                /* variabili */
+:root {
+    --my-bg-black: #1F1F1F;
+    --my-bg-gray: #BEBCBB;
+    --my-bg-blue: #161C3B;
+    --my-bg-lightblue: #00439C;
+    --my-btn-blue: #2D64E6;
+}
                 
-                                /* HEADER */
+/* HEADER */
+
+header{
+    background-color: black;
+}
+#sony-logo{
+    width: 100px;
+}
+.header-top{
+    height:40px;
+}
                 
-                header{
-                    background-color: black;
-                }
-                #sony-logo{
-                    width: 100px;
-                }
-                .header-top{
-                    height:40px;
-                }
+                /* NAV */
                 
-                                /* NAV */
-                
-                nav{
-                    font-size: 1.2em;
+nav{
+    font-size: 1.2em;
+}
+#lens-icon{
+    height: 25px;
+}
+nav .d-flex ul li a.btn{
+    padding:0.5em;
+}
+.roba-mia{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+.nav-link {
+    padding: 0.1rem 1rem;
+}
+nav .my-chevron{
+    vertical-align: middle;
+    filter:brightness(100%);
+    width: 0.7em;
+}
+nav #navbarSupportedContent ul>.nav-item button:hover .my-chevron{
+    filter: 
+    brightness(0) saturate(100%)
+    invert(31%) sepia(97%) saturate(1276%) hue-rotate(187deg) brightness(90%) contrast(107%)
+    ;
+}
+.my-inline-span{
+    vertical-align: top;
+}
+ul.show{
+    display: flex !important;
+    width: calc(100% + 2px);
+    left: -1px !important;
+    top:74px !important;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+}
+nav button{
+    border: none;
+    background: none;
+}
+.ps-icon{
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+.dropdown-item{
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+}
+.dropdown-menu{
+    border: none;
+}
+.dropdown-menu li{
+    padding: 5px;
+    margin: 15px;
+}
+.dropdown-menu li a{
+    padding: 0;
+    background-color: white !important;
                 }
-                #lens-icon{
-                    height: 25px;
-                }
-                nav .d-flex ul li a.btn{
-                    padding:0.5em;
-                }
-                .roba-mia{
-                    background-color: white;
-                    width: 100%;
-                    height: 100px;
-                    text-align: center;
-                    vertical-align: middle;
-                }
-                .nav-link {
-                    padding: 0.1rem 1rem;
-                }
-                nav .my-chevron{
-                    vertical-align: middle;
-                    filter:brightness(100%);
-                    width: 0.7em;
-                }
-                nav #navbarSupportedContent ul>.nav-item button:hover .my-chevron{
-                    filter: 
-                    brightness(0) saturate(100%)
-                    invert(31%) sepia(97%) saturate(1276%) hue-rotate(187deg) brightness(90%) contrast(107%)
-                    ;
-                }
-                .my-inline-span{
-                    vertical-align: top;
-                }
-                ul.show{
-                    display: flex !important;
-                    width: calc(100% + 2px);
-                    left: -1px !important;
-                    top:74px !important;
-                    border-top: none;
-                    border-radius: 0 0 10px 10px;
-                }
-                nav button{
-                    border: none;
-                    background: none;
-                }
-                .ps-icon{
-                    object-fit: cover;
-                    height: 100px;
-                    width: 100px;
-                    border-radius: 10px;
-                }
-                .dropdown-item{
-                    text-align: center;
-                    display: flex;
-                    flex-flow: column;
-                    align-items: center;
-                    gap: 10px;
-                }
-                .dropdown-menu{
-                    border: none;
-                }
-                .dropdown-menu li{
-                    padding: 5px;
-                    margin: 15px;
-                }
-                .dropdown-menu li a{
-                    padding: 0;
-                    background-color: white !important;
-                }
-                .dropdown-menu li:hover{
-                    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5), -1px -1px 5px rgba(0, 0, 0, 0.2);
-                }
-                @media screen and (max-width:991px) {
-                    .dropdown-menu .dropdown-item img{
-                        height: 15vw;
-                        width: 15vw;
-                    }
-                    .dropdown-item p{
-                        font-size: 0.8em;
-                    }
-                    .dropdown ul{
-                        padding-inline-start: 0px !important;
-                    }
-                    .dropdown-menu li{
-                        padding: 5px;
-                        margin: 5px;
-                    }
-                }
+.dropdown-menu li:hover{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5), -1px -1px 5px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width:991px) {
+    .dropdown-menu .dropdown-item img{
+        height: 15vw;
+        width: 15vw;
+    }
+    .dropdown-item p{
+        font-size: 0.8em;
+    }
+    .dropdown ul{
+        padding-inline-start: 0px !important;
+    }
+    .dropdown-menu li{
+        padding: 5px;
+        margin: 5px;
+    }
+}
                 
                 /* MAIN */
                 
-                /* sezione 1 - JUMBOTRON */
-                #jumbotron{
-                    margin-top: 110px;
-                    padding-top: 300px;
-                    padding-bottom: 30px;
-                    background-image: url(../img/jumbo-bg.png);
-                    background-position: top center;
-                    background-repeat: no-repeat;
-                }
-                #jumbotron .card{
-                    border: none;
-                }
+/* sezione 1 - JUMBOTRON */
+#jumbotron{
+    margin-top: 110px;
+    padding-top: 300px;
+    padding-bottom: 30px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+#jumbotron .card{
+    border: none;
+}
                 
-                /* sezione 2 - CARD GIOCHI */
-                #section-two .col-6 img{
-                    border-radius: 20px;
-                    position: relative;
-                    border: 3px solid transparent;
-                    cursor: pointer;
-                    padding: 2px;
-                    top: 0;
-                    transition: top 0.2s, border 0.5s;
-                }
-                #section-two .col-6:hover img{
-                    top:-10px;
-                    border: 3px solid var(--my-btn-blue);
-                }
-                /* sezione 3 - PLAYSTATION 5 */
-                #section-three{
-                    margin-top: 80px;
-                }
-                #section-three .card.text-center h6{
-                    color: var(--my-btn-blue);
-                }
-                #section-three .card p{
-                    color: gray;
-                    font-size: 1.2em;
-                }
-                .my-layover{
-                    background-color: rgba(255, 255, 255, 0.5);
-                    position: absolute;
-                    top: 0;
-                    bottom: 0;
-                    left: 0;
-                    right: 0;
-                    cursor: pointer;
-                }
-                .my-img-wrapper{
-                    text-align: center;
-                    border-bottom: 3px solid white;
-                }
-                .my-img-wrapper:hover{
-                    border-bottom: 3px solid var(--my-btn-blue);
-                }
-                .row .col-4:hover .my-layover{
-                    display: none;
-                }
-                @media screen and (max-width: 767px) {
-                    .my-img-wrapper p{
-                        display: none;
-                    }
-                }
+/* sezione 2 - CARD GIOCHI */
+#section-two .col-6 img{
+    border-radius: 20px;
+    position: relative;
+    border: 3px solid transparent;
+    cursor: pointer;
+    padding: 2px;
+    top: 0;
+    transition: top 0.2s, border 0.5s;
+}
+#section-two .col-6:hover img{
+    top:-10px;
+    border: 3px solid var(--my-btn-blue);
+}
+/* sezione 3 - PLAYSTATION 5 */
+#section-three{
+    margin-top: 80px;
+}
+#section-three .ctext-center h6{
+    color: var(--my-btn-blue);
+}
+#section-three .card p{
+    color: gray;
+    font-size: 1.2em;
+}
+.my-layover{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+}
+.my-img-wrapper{
+    text-align: center;
+    border-bottom: 3px solid white;
+}
+.my-img-wrapper:hover{
+    border-bottom: 3px solid var(--my-btn-blue);
+}
+.row .col-4:hover .my-layover{
+    display: none;
+}
+@media screen and (max-width: 767px) {
+    .my-img-wrapper p{
+        display: none;
+    }
+}
+
+/* sezione 4 - IT TAKES TWO */
+#jumbotron-2{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: url(../img/it-takes-two-hero-banner-desktop.jpg) no-repeat center;
+    background-size: cover;
+}
+#jumbotron-2 .card{
+    border: none;
+}
+/* sezione 5 - NUOVE USCITE */
+#section-five{
+    background-color: var(--my-bg-black);
+}
+#section-five .col-6{
+    align-self: flex-start;
+}
+#section-five .col-6 img{
+    border-radius: 25px;
+    margin-bottom: 15px;
+    transition: 0.15s;
+    position: relative;
+    opacity: 0.85;
+}
+#section-five .col-6 img:hover{
+    height: calc(100% + 6px);
+    width: calc(100% + 6px);
+    margin-bottom: 12px;
+    margin-top: -3px;
+    margin-left: -3px;
+    opacity: 1;
+}
+/* sezione 6 - PLAYSTATION 4 */
+.fa-registered{
+    font-size: 0.4em;
+    vertical-align: super;
+}
+#section-six .card p{
+    color: gray;
+    font-size: 1.2em;
+}
+/* sezione 7 - PLAYSTATION PLUS */
+#section-seven{
+    background-color: var(--my-bg-gray);
+}
+/* sezione 8 - SCONTI */
+#section-eight .card p{
+    color: gray;
+    font-size: 1.2em;
+}
+/* sezione 9 - PLAYSTATION NOW */
+#section-nine{
+    background-color: var(--my-bg-blue);
+}
+/* sezione 10 - SOCIAL */
+#section-ten .container-md{
+    max-width: 720px;
+}
                 
-                /* sezione 4 - IT TAKES TWO */
-                #jumbotron-2{
-                    padding-top: 50px;
-                    padding-bottom: 20px;
-                    background: url(../img/it-takes-two-hero-banner-desktop.jpg) no-repeat center;
-                    background-size: cover;
-                }
-                #jumbotron-2 .card{
-                    border: none;
-                }
-                /* sezione 5 - NUOVE USCITE */
-                #section-five{
-                    background-color: var(--my-bg-black);
-                }
-                #section-five .col-6{
-                    align-self: flex-start;
-                }
-                #section-five .col-6 img{
-                    border-radius: 25px;
-                    margin-bottom: 15px;
-                    transition: 0.15s;
-                    position: relative;
-                    opacity: 0.85;
-                }
-                #section-five .col-6 img:hover{
-                    height: calc(100% + 6px);
-                    width: calc(100% + 6px);
-                    margin-bottom: 12px;
-                    margin-top: -3px;
-                    margin-left: -3px;
-                    opacity: 1;
-                }
-                /* sezione 6 - PLAYSTATION 4 */
-                .fa-registered{
-                    font-size: 0.4em;
-                    vertical-align: super;
-                }
-                #section-six .card p{
-                    color: gray;
-                    font-size: 1.2em;
-                }
-                /* sezione 7 - PLAYSTATION PLUS */
-                #section-seven{
-                    background-color: var(--my-bg-gray);
-                }
-                /* sezione 8 - SCONTI */
-                #section-eight .card p{
-                    color: gray;
-                    font-size: 1.2em;
-                }
-                /* sezione 9 - PLAYSTATION NOW */
-                #section-nine{
-                    background-color: var(--my-bg-blue);
-                }
-                /* sezione 10 - SOCIAL */
-                #section-ten .container-md{
-                    max-width: 720px;
-                }
-                
-                /* FOOTER */
-                footer{
-                    background-color: var(--my-bg-lightblue);
-                }
-                footer #footer-ps-logo{
-                    height: 70px;
-                }
-                footer #footer-sie-logo{
-                    height: 50px;
-                }
-                footer ul li{
-                    border: none !important;
-                }
-                footer ul li a{
-                    color: white;
-                    text-decoration: none;
-                }
-                footer ul li a:hover{
-                    color: red;
-                }
-                footer .fa-copyright{
-                    font-size: 0.8em;
-                }
+/* FOOTER */
+footer{
+    background-color: var(--my-bg-lightblue);
+}
+footer #footer-ps-logo{
+    height: 70px;
+}
+footer #footer-sie-logo{
+    height: 50px;
+}
+footer ul li{
+    border: none !important;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: red;
+}
+footer .fa-copyright{
+    font-size: 0.8em;
+}
